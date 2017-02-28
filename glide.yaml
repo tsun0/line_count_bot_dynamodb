@@ -1,0 +1,8 @@
+package: github.com/line_count_bot_dynamodb
+import:
+- package: github.com/aws/aws-sdk-go
+  version: v1.7.3
+  subpackages:
+  - aws
+  - aws/session
+  - service/dynamodb
